@@ -1,0 +1,30 @@
+# environment.yml
+# Entorno de Conda unificado para la aplicación Gym Performance Analyzer.
+# Para crearlo: conda env create -f environment.yml
+# Para actualizarlo: conda env update -f environment.yml --prune
+
+name: gym_env  # Un nuevo nombre limpio para el entorno final
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  # --- Core ---
+  - python=3.10
+  - pip
+
+  # --- Backend & Data Processing ---
+  - numpy
+  - pandas
+  - opencv
+  - scipy  # Para el conteo de repeticiones con find_peaks
+
+  # --- GUI ---
+  - pyqt=5
+
+  # --- Dependencias instaladas con Pip ---
+  # - pip:
+  #  - mediapipe==0.10.21
+  #  - moviepy==1.0.3
+  #  - matplotlib  # Para las gráficas en la GUI
