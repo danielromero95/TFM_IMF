@@ -16,8 +16,5 @@ dependencies:
   - attrs
   - flatbuffers>=23
   - pyqtgraph=0.13.*
-  # opcional si usas 3D:
-  # - pyopengl
-  # - pyopengl-accelerate
   - pip:
       - mediapipe==0.10.21

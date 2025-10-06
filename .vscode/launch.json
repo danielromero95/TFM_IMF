@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run GUI (src.gui.main)",
+      "type": "python",
+      "request": "launch",
+      "module": "src.gui.main",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
